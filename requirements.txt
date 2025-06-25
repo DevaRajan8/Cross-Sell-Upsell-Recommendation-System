@@ -1,0 +1,29 @@
+# Core Framework Dependencies
+streamlit>=1.28.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# Database
+psycopg2-binary>=2.9.7
+pandas>=2.1.0
+
+# AI/ML and LangGraph
+langgraph>=0.0.40
+langchain>=0.1.0
+numpy>=1.24.0
+
+# HTTP Requests
+requests>=2.31.0
+
+# Data Classes and Type Hints
+typing-extensions>=4.8.0
+
+# Logging (built-in, but ensuring compatibility)
+# logging - built-in module
+
+# Development/Optional
+python-dotenv>=1.0.0  # For environment variable management
+
+# System Dependencies (for reference - install via system package manager)
+# PostgreSQL server (if running locally)
+# Python 3.8+ required
